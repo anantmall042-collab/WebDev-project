@@ -1,0 +1,132 @@
+/* -------- GLOBAL STYLES -------- */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+}
+
+/* -------- NAVBAR -------- */
+.navbar {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+.navbar h2 {
+    float: left;
+    margin: 0;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* -------- HOME PAGE -------- */
+.home-banner {
+    text-align: center;
+    padding: 80px;
+    background: #0099ff;
+    color: white;
+}
+
+/* -------- ABOUT PAGE -------- */
+.about-section {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.about-section img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* -------- EVENTS PAGE -------- */
+.events-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.event-card {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    border: 2px solid #0099ff;
+    border-radius: 8px;
+}
+
+/* -------- JOIN FORM -------- */
+.form-box {
+    width: 50%;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #777;
+}
+
+.form-box button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    background: #0059b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* -------- FOOTER -------- */
+footer {
+    background: #028ffc;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 180px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer .social-links a {
+    color: #0a84ff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
